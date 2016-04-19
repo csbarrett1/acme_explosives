@@ -1,18 +1,6 @@
 "use strict";
 
-// var categories = function() {
-//   var deferred = new Promise();
-
-//   $.ajax({
-//     url: "categories.json"
-//   }).done(function(data) {
-//     deffered.resolve(data);
-//   }).fail(function(xhr, status, error) {
-//     deferred.reject(error);
-//   });
-
-//   return deffered.promise;
-// };
+$(document).ready(function() {
 
 var categories = function(){
   return new Promise((resolve, reject) => {
@@ -20,30 +8,48 @@ var categories = function(){
     $.ajax({
       url: "categories.json"
     }).done(function(data) {
-          resolve(data);
+      resolve(data);
     }).fail(function(xhr, status, error) {
-          reject(error);
+      reject(error);
     });
   });
-}
+};
 
 var types = function(result_of_categories) {
-  // var deferred = Q.defer();
+  return new Promise((resolve, reject) => {
 
-  $.ajax({
-    url: "types.json",
-    data: result_of_categories
-  }).done(function(data) {
-    deferred.resolve(data);
-  }).fail(function(xhr, status, error) {
-    deferred.reject(error);
+    $.ajax({
+      url: "types.json",
+      data: result_of_categories
+    }).done(function(data) {
+      resolve(data);
+    }).fail(function(xhr, status, error) {
+      reject(error);
+    });
   });
+};
 
-  return deferred.promise;
-  console.log("test");
+var products = function(result_of_types) {
+  return new Promise((resolve, reject) => {
+
+    $.ajax({
+      url: "products.json",
+      data: result_of_types
+    }).done(function(data) {
+      resolve(data);
+    }).fail(function(xhr, status, error) {
+      reject(error);
+    });
+  });
 };
 
 categories()
   .then(function(data1) {
     return types(data1);
   })
+  .then(function(data2) {
+    return products(data2);
+  })
+  .done();
+
+  });
