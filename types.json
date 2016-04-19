@@ -1,0 +1,40 @@
+{
+    "types": [
+        {
+            "id": 0,
+            "category": 0,
+            "name": "Ground",
+            "description": "Fireworks that do their thing without leaving Planet Earth."
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "Flying",
+            "description": "Fireworks that shoot off into the atmosphere."
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "Kid-Friendly",
+            "description": "Boring for adults."
+        },
+        {
+            "id": 3,
+            "category": 1,
+            "name": "Small",
+            "description": "Cool for blowing small things up."
+        },
+        {
+            "id": 4,
+            "category": 1,
+            "name": "Medium",
+            "description": "Wanna get rid of that pesky treehouse? These are for you."
+        },
+        {
+            "id": 5,
+            "category": 1,
+            "name": "Large",
+            "description": "Hope you have a license for these..."
+        }
+    ]
+}
