@@ -1,148 +1,112 @@
 {
     "products": [
         {
-          "ground_bloom_flowers": {
             "id": 0,
             "type": 0,
             "name": "Ground Bloom Flowers",
             "description": "40 piece box of ground spinners."
-          }
         },
         {
-          "dancing_butterfly": {
             "id": 1,
             "type": 0,
             "name": "Dancing Butterfly",
             "description": "This spinner starts its performance with a beautiful spray fountain, then surprisingly finishes with a barrage of six jumping red and green baby ground bloom spinners."
-          }
         },
         {
-          "saturn_ring_eruption": {
             "id": 2,
             "type": 0,
             "name": "Saturn Ring Eruption",
             "description": "Saturn shape spinner with silver ring and crackling finale."
-          }
         },
         {
-          "triple_whistler": {
             "id": 3,
             "type": 1,
             "name": "Triple Whistler",
             "description": "Three-stage whistling bottle rocket with report. You will love this one!"
-          }
         },
         {
-          "four_horseman_rocket": {
             "id": 4,
             "type": 1,
             "name": "Four Horseman Rocket",
             "description": "This one flies fast and high! Powerful aerial action has excellent lift and super-charged colorful burst."
-          }
         },
         {
-          "wolfpack_missle_base": {
             "id": 5,
             "type": 1,
             "name": "Wolfpack Missle Base",
             "description": "Five effects: fiery tail, crackle, color burst, silver glitter, yellow peony."
-          }
         },
         {
-          "crackling_ball": {
             "id": 6,
             "type": 2,
             "name": "Crackling Ball",
             "description": "Round firecracker-type ball with crackling and flashing effects."
-          }
         },
         {
-          "wolfpack_snaps": {
             "id": 7,
             "type": 2,
             "name": "Wolfpack Snaps",
             "description": "Kids favorite trick noisemaker. 200 snaps per box."
-          }
         },
         {
-          "tank_w/r": {
             "id": 8,
             "type": 2,
             "name": "Tank W/R",
             "description": "Combat simulation. This tank has wheels and moves in a forward motion shooting sparks and bombs. Lots of fun!"
-          }
         },
         {
-          "small_one": {
             "id": 9,
             "type": 3,
             "name": "Small One",
             "description": "It's the first small explosive."
-          }
         },
         {
-          "small_two": {
             "id": 10,
             "type": 3,
             "name": "Small Two",
             "description": "It's the second small explosive"
-          }
         },
         {
-          "small_three": {
             "id": 11,
             "type": 3,
             "name": "Small Three",
             "description": "And... the third!"
-          }
         },
         {
-          "medium_one": {
             "id": 12,
             "type": 4,
             "name": "Medium One",
             "description": "It's the first medium explosive."
-          }
         },
         {
-          "medium_two": {
             "id": 13,
             "type": 4,
             "name": "Medium Two",
             "description": "It's the second medium explosive"
-          }
         },
         {
-          "medium_three": {
             "id": 14,
             "type": 4,
             "name": "Medium Three",
             "description": "And... the third!"
-          }
         },
         {
-          "large_one": {
             "id": 15,
             "type": 5,
             "name": "Large One",
             "description": "It's the first large explosive."
-          }
         },
         {
-          "large_two": {
             "id": 16,
             "type": 5,
             "name": "Large Two",
             "description": "It's the second large explosive"
-          }
         },
         {
-          "large_three": {
             "id": 17,
             "type": 5,
             "name": "Large Three",
             "description": "And... the third!"
-          }
         }
     ]
 }
